@@ -1,2 +1,2 @@
 # AJACS54
-@Osaka University
+AJACS Training at Osaka University.
