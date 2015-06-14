@@ -82,20 +82,25 @@
 
 ####【実習1】NCBIからゲノム配列を検索、取得する
 1.  **中東呼吸器症候群**の原因ウイルスのゲノム配列を取得しましょう。日本語しかわからない場合は、NBDCの[データベース横断検索](http://biosciencedbc.jp/dbsearch/)から英語名を調べましょう。その結果、出てくる``Middle East respiratory syndrome``でNCBIから検索します。
+
 [![Gyazo](http://i.gyazo.com/4b14584d8cae14de8717a5b1b31d21af.png)](http://gyazo.com/4b14584d8cae14de8717a5b1b31d21af)
 
 2.  検索結果を見ましょう。それぞれのDBの横にある数字は、検索ヒット数です。ゲノム配列が得たいので、``Genome``の項目(ヒット数1件)をクリックして詳細を取得します 
+
 [![Gyazo](http://i.gyazo.com/47eb9d97e16a18f02ee7930ed57a254a.png)](http://gyazo.com/47eb9d97e16a18f02ee7930ed57a254a)
 
 3.  Middle East respiratory syndrome coronavirusのゲノム構造と各種リンクが表示されます。``RefSeq``のところにあるIDをクリックするとRefSeq(リファレンス配列(Reference Sequence)のデータベース)のレコードが表示されます
+
 [![Gyazo](http://i.gyazo.com/fcc3c14b8158238233cd4b6087866db8.png)](http://gyazo.com/fcc3c14b8158238233cd4b6087866db8)
 
 4.  得られるRefSeqのレコードを見ましょう。ゲノムにコードされているタンパク質配列などを確認しましょう。
 
 5.  そのレコードの一番下にゲノム配列が記述されています。ゲノム塩基配列を抜き出すには、最上部の``FASTA``をクリックします
+
 [![Gyazo](http://i.gyazo.com/cd454ae926b1299e37680aaa7dc1906f.png)](http://gyazo.com/cd454ae926b1299e37680aaa7dc1906f)
 
 6.  MERSコロナウイルスのゲノム配列が得られました!
+
 [![Gyazo](http://i.gyazo.com/20fe76da0752e3b5abafcb632c3f69db.png)](http://gyazo.com/20fe76da0752e3b5abafcb632c3f69db)
 
 ### GOLD
