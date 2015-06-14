@@ -165,11 +165,11 @@
 
 [![Gyazo](http://i.gyazo.com/a486da624a97278a524cb282b42aeebd.png)](http://gyazo.com/a486da624a97278a524cb282b42aeebd)
 
-3. 「手法別登録データランキング」で赤系の色(4. illuminaと5. Other_NGS)だけクリックして残すと、NGSによる遺伝子発現測定のデータのみに絞りこめます
+3.「手法別登録データランキング」で赤系の色(4. illuminaと5. Other_NGS)だけクリックして残すと、NGSによる遺伝子発現測定のデータのみに絞りこめます
 
 [![Gyazo](http://i.gyazo.com/b69d96059e492c5da246e30504e8d023.png)](http://gyazo.com/b69d96059e492c5da246e30504e8d023)
 
-4. 上部の検索窓でキーワード(例えば、``hypoxia)を入れて検索ボタンを押すと、そのキーワードを実験タイトルに含むエントリだけに絞りこめます
+4.上部の検索窓でキーワード(例えば、``hypoxia)を入れて検索ボタンを押すと、そのキーワードを実験タイトルに含むエントリだけに絞りこめます
 
 [![Gyazo](http://i.gyazo.com/e307a5a241dab93eeccc3e9109faa803.png)](http://gyazo.com/e307a5a241dab93eeccc3e9109faa803)
 
