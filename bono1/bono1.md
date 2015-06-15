@@ -82,23 +82,23 @@
 
 ####【実習1】NCBIからゲノム配列を検索、取得する
 
-1. **中東呼吸器症候群**の原因ウイルスのゲノム配列を取得しましょう。日本語しかわからない場合は、NBDCの[データベース横断検索](http://biosciencedbc.jp/dbsearch/)から英語名を調べましょう。その結果、出てくる``Middle East respiratory syndrome``でNCBIから検索します
+1. **中東呼吸器症候群**の原因ウイルスのゲノム配列を取得しましょう。日本語しかわからない場合は、NBDCの[データベース横断検索](http://biosciencedbc.jp/dbsearch/)から英語名を調べましょう。その結果、出てくる``Middle East respiratory syndrome``でNCBIから検索します  
 [![Gyazo](http://i.gyazo.com/4b14584d8cae14de8717a5b1b31d21af.png)](http://gyazo.com/4b14584d8cae14de8717a5b1b31d21af)
 
 
-2. 検索結果を見ましょう。それぞれのDBの横にある数字は、検索ヒット数です。ゲノム配列が得たいので、``Genome``の項目(ヒット数1件)をクリックして詳細を取得します 
+2. 検索結果を見ましょう。それぞれのDBの横にある数字は、検索ヒット数です。ゲノム配列が得たいので、``Genome``の項目(ヒット数1件)をクリックして詳細を取得します  
 [![Gyazo](http://i.gyazo.com/47eb9d97e16a18f02ee7930ed57a254a.png)](http://gyazo.com/47eb9d97e16a18f02ee7930ed57a254a)
 
 
-3. Middle East respiratory syndrome coronavirusのゲノム構造と各種リンクが表示されます。``RefSeq``のところにあるIDをクリックするとRefSeq(リファレンス配列(Reference Sequence)のデータベース)のレコードが表示されます
+3. Middle East respiratory syndrome coronavirusのゲノム構造と各種リンクが表示されます。``RefSeq``のところにあるIDをクリックするとRefSeq(リファレンス配列(Reference Sequence)のデータベース)のレコードが表示されます  
 [![Gyazo](http://i.gyazo.com/fcc3c14b8158238233cd4b6087866db8.png)](http://gyazo.com/fcc3c14b8158238233cd4b6087866db8)
 
-4. 得られるRefSeqのレコードを見ましょう。ゲノムにコードされているタンパク質配列などを確認しましょう。
-5. そのレコードの一番下にゲノム配列が記述されています。ゲノム塩基配列を抜き出すには、最上部の``FASTA``をクリックします
+4. 得られるRefSeqのレコードを見ましょう。ゲノムにコードされているタンパク質配列などを確認しましょう  
+5. そのレコードの一番下にゲノム配列が記述されています。ゲノム塩基配列を抜き出すには、最上部の``FASTA``をクリックします  
 [![Gyazo](http://i.gyazo.com/cd454ae926b1299e37680aaa7dc1906f.png)](http://gyazo.com/cd454ae926b1299e37680aaa7dc1906f)
 
 
-6. MERSコロナウイルスのゲノム配列が得られました!
+6. MERSコロナウイルスのゲノム配列が得られました!  
 [![Gyazo](http://i.gyazo.com/20fe76da0752e3b5abafcb632c3f69db.png)](http://gyazo.com/20fe76da0752e3b5abafcb632c3f69db)
 
 ### GOLD
@@ -111,31 +111,31 @@
 ####【実習2】GOLDでゲノム配列解読された生物種を検索する
 (詳細な手順は統合TV([GOLD -Genomes Online Database- の使い方](http://togotv.dbcls.jp/20150515.html))にあります。それと同じ内容を以下の実習でやりますので、動画を見ながらやっていただくのも手です)
 
-1. [GOLD(Genomes Online Database)](https://gold.jgi-psf.org/)にアクセスします
+1. [GOLD(Genomes Online Database)](https://gold.jgi-psf.org/)にアクセスします  
 [![Gyazo](http://i.gyazo.com/cb4596511a204cdf873684bca2c8e7a2.png)](http://gyazo.com/cb4596511a204cdf873684bca2c8e7a2)
 
-2. 上部のメニューバーの中のSearchをクリックします
-3. NCBI BioProject Nameに``Thiobacillus``と入力して、下部にあるSearchをクリックします
+2. 上部のメニューバーの中のSearchをクリックします  
+3. NCBI BioProject Nameに``Thiobacillus``と入力して、下部にあるSearchをクリックします  
 [![Gyazo](http://i.gyazo.com/d71d28b4f10d846481dcc6d6cc5806c1.png)](http://gyazo.com/d71d28b4f10d846481dcc6d6cc5806c1)
 
 
-4. ``Select Fields``をクリックして出てくるサブウィンドウで``Is Public``と``GC Percent``にチェックを入れて、そのウィンドウ最下部のSubmitをクリックします
+4. ``Select Fields``をクリックして出てくるサブウィンドウで``Is Public``と``GC Percent``にチェックを入れて、そのウィンドウ最下部のSubmitをクリックします  
 [![Gyazo](http://i.gyazo.com/f52ab7595bf8f4cba9da750ccbcde6fa.png)](http://gyazo.com/f52ab7595bf8f4cba9da750ccbcde6fa)
 
-5. こんな結果が出てきます。Project Statusでゲノム配列解読の状況がわかります
+5. こんな結果が出てきます。Project Statusでゲノム配列解読の状況がわかります  
 [![Gyazo](http://i.gyazo.com/e0c763b2341d254201242270a2ed2136.png)](http://gyazo.com/e0c763b2341d254201242270a2ed2136)
 
 
-6. 出てくるテーブルの``GC Percent``をクリックするとGC含量でレコードがソートされます
+6. 出てくるテーブルの``GC Percent``をクリックするとGC含量でレコードがソートされます  
 [![Gyazo](http://i.gyazo.com/abb304ed59a039ab8d503949dea7fbc2.png)](http://gyazo.com/abb304ed59a039ab8d503949dea7fbc2)
 
-7. 一番上に出てくる``Gp0003885``をクリックして出てくる詳細画面を眺めましょう。``Sequencing Information``,``Organism Information``, ``Organism Metadata``タブをクリックしてどういった情報が載せられているか確認しましょう
+7. 一番上に出てくる``Gp0003885``をクリックして出てくる詳細画面を眺めましょう。``Sequencing Information``,``Organism Information``, ``Organism Metadata``タブをクリックしてどういった情報が載せられているか確認しましょう  
 [![Gyazo](http://i.gyazo.com/a97df74b44377f1bc79d8eac4be2296c.png)](http://gyazo.com/a97df74b44377f1bc79d8eac4be2296c)
 
-8. ``Project Information``タブに戻り、``NCBI BioProject ID``のリンクをクリック
+8. ``Project Information``タブに戻り、``NCBI BioProject ID``のリンクをクリック  
 [![Gyazo](http://i.gyazo.com/29bd21effb67cfcacb487a767872e762.png)](http://gyazo.com/29bd21effb67cfcacb487a767872e762)
 
-9. リンク先は前述のNCBIのBioProjectのページで``SEQUENCE DATA``の数字をクリックすれば、前述同様、ゲノム配列が取得できます
+9. リンク先は前述のNCBIのBioProjectのページで``SEQUENCE DATA``の数字をクリックすれば、前述同様、ゲノム配列が取得できます  
 
 [【復習用】GOLD -Genomes Online Database- の使い方(統合TV)](http://togotv.dbcls.jp/20150515.html)
 
@@ -174,16 +174,16 @@
 	
 ####【実習3】GGGenomeを使ってゲノム配列から探す
 
-1. http://gggenome.dbcls.jp/ にアクセスします
+1. http://gggenome.dbcls.jp/ にアクセスします  
 [![Gyazo](http://i.gyazo.com/f0ffa1901878ade96d9f4274b235eb86.png)](http://gyazo.com/f0ffa1901878ade96d9f4274b235eb86)
 
-2. ``CTGACGGTCA``(10塩基)を入力して「検索」ボタンを押します。この塩基配列がヒトゲノム中で何回出てくるか、簡単にわかります
+2. ``CTGACGGTCA``(10塩基)を入力して「検索」ボタンを押します。この塩基配列がヒトゲノム中で何回出てくるか、簡単にわかります  
 [![Gyazo](http://i.gyazo.com/ca47196af2a9e98a291a7a68ff69177d.png)](http://gyazo.com/ca47196af2a9e98a291a7a68ff69177d)
 
-3. 検索ボタンの右にある生物種を``S.cerevisiae``にして検索しなおしましょう。ヒット数はどう変化するでしょうか?
+3. 検索ボタンの右にある生物種を``S.cerevisiae``にして検索しなおしましょう。ヒット数はどう変化するでしょうか?  
 [![Gyazo](http://i.gyazo.com/0d519de6d1c0fa8982ff55d8e3b9eae3.png)](http://gyazo.com/0d519de6d1c0fa8982ff55d8e3b9eae3)
 
-4. 染色体と位置のところにリンクがあり、これをクリックするとUCSC Genome Browserの該当箇所になります。その使い方は次節で説明します
+4. 染色体と位置のところにリンクがあり、これをクリックするとUCSC Genome Browserの該当箇所になります。その使い方は次節で説明します  
 
 - [【復習用】高速配列検索 GGGenome《ゲゲゲノム》の使い方(統合TV)](http://togotv.dbcls.jp/20131025.html) 
 - English version available here -> [GGGenome: a fast and simple DNA sequence search engine(TogoTV)](http://togotv.dbcls.jp/20150514.html)
