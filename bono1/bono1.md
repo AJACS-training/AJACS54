@@ -201,50 +201,53 @@ http://motdb.dbcls.jp/?AJACS32%2Fbono#e17b6eed)を御覧ください。実際に
 
 ####【実習4】UCSC & Ensembl Genome Browserに隠されたアノテーションを発掘する
 
-1. http://genome.ucsc.edu/ にアクセスします
-2. 上部のメニューバーの``Genomes``をクリックします
+1. http://genome.ucsc.edu/ にアクセスします  
+2. 上部のメニューバーの``Genomes``をクリックします  
 [![Gyazo](http://i.gyazo.com/c42463de567c3b5bda28531e0a3380a5.png)](http://gyazo.com/c42463de567c3b5bda28531e0a3380a5)
 
-3. groupに``Mammal``、genomeに``Human``、assemblyに``Feb.2009 (GRCh37/hg19)``を選び、search termに``PPARG``と入力すると入力補完されるので、一番上の``PPARG``を選び、submitボタンを押しましょう。
+3. groupに``Mammal``、genomeに``Human``、assemblyに``Feb.2009 (GRCh37/hg19)``を選び、search termに``PPARG``と入力すると入力補完されるので、一番上の``PPARG``を選び、submitボタンを押しましょう  
 [![Gyazo](http://i.gyazo.com/4c16a687c6335264a86ed83b5aa0d14d.png)](http://gyazo.com/4c16a687c6335264a86ed83b5aa0d14d)
 
 4. PPARGがコードされたゲノム上の領域が表示されます
 [![Gyazo](http://i.gyazo.com/cb2da09cca945ad0c5ab2b08828d3e30.png)](http://gyazo.com/cb2da09cca945ad0c5ab2b08828d3e30)
 
-5. 上部のnavigationボタンでmoveやzoom in/out等できますが、遺伝子名検索でたどり着いた場合、mRNAの領域に拡大されて表示されるので、zoom out ``3x``しておきましょう
+5. 上部のnavigationボタンでmoveやzoom in/out等できますが、遺伝子名検索でたどり着いた場合、mRNAの領域に拡大されて表示されるので、zoom out ``3x``しておきましょう  
 [![Gyazo](http://i.gyazo.com/45bd00962f11674fcd909d3b1c35de74.png)](http://gyazo.com/45bd00962f11674fcd909d3b1c35de74)
 
-6. 画面下の方にあるのがアノテーションです。Regulationカテゴリー中の``ENC TF Binding``が'hide'になっているのを``show``に変えて、``refresh``ボタンを押してみましょう
+6. 画面下の方にあるのがアノテーションです。Regulationカテゴリー中の``ENC TF Binding``が'hide'になっているのを``show``に変えて、``refresh``ボタンを押してみましょう  
 [![Gyazo](http://i.gyazo.com/b64f914712159365bbf0065722e8ad34.png)](http://gyazo.com/b64f914712159365bbf0065722e8ad34)
 
-7. そうすると、上部のゲノム領域にこのゲノムアノテーションが付加されて表示されます
+7. そうすると、上部のゲノム領域にこのゲノムアノテーションが付加されて表示されます  
 [![Gyazo](http://i.gyazo.com/d798bf4f493263393cf0a511a60d0daa.png)](http://gyazo.com/d798bf4f493263393cf0a511a60d0daa)
 
-8. このゲノムアノテーションについて詳しく知りたい場合、さきほどshowに切り替えた選択画面の上にあったリンクをクリックしてみましょう
+8. このゲノムアノテーションについて詳しく知りたい場合、さきほどshowに切り替えた選択画面の上にあったリンクをクリックしてみましょう  
 [![Gyazo](http://i.gyazo.com/0d873a1a252a3a0e96e7a88f3a999961.png)](http://gyazo.com/0d873a1a252a3a0e96e7a88f3a999961)
-ENCODE Transcription Factor Binding Tracks のようです
-9. いろいろいじってしまうと元に戻したい時があります。その場合は、``default tracks``ボタンを押すとResetされ、元のゲノムアノテーションに簡単に戻せます
+ENCODE Transcription Factor Binding Tracks のようです  
+
+9. いろいろいじってしまうと元に戻したい時があります。その場合は、``default tracks``ボタンを押すとResetされ、元のゲノムアノテーションに簡単に戻せます  
 [![Gyazo](http://i.gyazo.com/45bd00962f11674fcd909d3b1c35de74.png)](http://gyazo.com/45bd00962f11674fcd909d3b1c35de74)
 
-10. 上部のメニューのうち、Viewをクリックして出てくる``Ensembl``をクリックすると、今見ている領域のEnsembl Genome Browserの該当領域へジャンプします
+10. 上部のメニューのうち、Viewをクリックして出てくる``Ensembl``をクリックすると、今見ている領域のEnsembl Genome Browserの該当領域へジャンプします  
 [![Gyazo](http://i.gyazo.com/f3dc8684bfcbf06b0b24245d927686dc.png)](http://gyazo.com/f3dc8684bfcbf06b0b24245d927686dc)
 
-11. 【重要】ゲノム配列はバージョンが同じならどこのサイトでも同一ですが、 **アノテーションは提供サイトで異なります**
+11. 【重要】ゲノム配列はバージョンが同じならどこのサイトでも同一ですが、 **アノテーションは提供サイトで異なります**  
 [![Gyazo](http://i.gyazo.com/b111f980618046623d3bdaa21292f391.png)](http://gyazo.com/b111f980618046623d3bdaa21292f391)
 
-12. 左カラムのメニュー中のComparative Genomicsの``Synteny``をクリックすると、ヒトとマウスの間のシンテニーマップが表示されます
+12. 左カラムのメニュー中のComparative Genomicsの``Synteny``をクリックすると、ヒトとマウスの間のシンテニーマップが表示されます  
 [![Gyazo](http://i.gyazo.com/b7724dbf44fb56a752baba81798c2880.png)](http://gyazo.com/b7724dbf44fb56a752baba81798c2880)
 
-13. Genetic Variationの``Resequencing``をクリックすると、
+13. Genetic Variationの``Resequencing``をクリックします  
 [![Gyazo](http://i.gyazo.com/653466a72e112bdebcd09d7479546a96.png)](http://gyazo.com/653466a72e112bdebcd09d7479546a96)
 
-14. 指定した領域が広すぎる(Region too large)、と怒られました。そこで、ズームスライダー(右)を＋のほうに動かしてみます
+14. 指定した領域が広すぎる(Region too large)、と怒られました。そこで、ズームスライダー(右)を＋のほうに動かしてみます  
 [![Gyazo](http://i.gyazo.com/45f10ed1cb940c23826061978f8a7d89.png)](http://gyazo.com/45f10ed1cb940c23826061978f8a7d89)
 
-15. 無事、リシーケンスの代表格のWATSONとVENTERゲノムとリファレンスゲノムのアラインメントが表示されました。
+15. 無事、リシーケンスの代表格のWATSONとVENTERゲノムとリファレンスゲノムのアラインメントが表示されました  
 
-ここまで出来て時間のある方は、自分の興味のある遺伝子やtrackを試してみたり、以下の統合TVを参考にゲノムブラウザをいじってみてください
+- [【復習用】UCSC Genome Browserの使い方〜表示+ENCODE編〜 2012(統合TV)](http://togotv.dbcls.jp/20120528.html)
 
-- [【復習用】UCSC Genome Browserの使い方〜表示+ENCODE編〜 2012](http://togotv.dbcls.jp/20120528.html)
+
+ここまで出来て時間のある方は、自分の興味のある遺伝子やtrackを試してみましょう。余裕のある方は、[ウイルスの持ち出した宿主の遺伝子配列がコードされている領域をアミノ酸配列レベルでゲノム中から探し当てる 2012(統合TV)](http://togotv.dbcls.jp/20121030.html)で説明されているラウス肉腫ウイルスゲノム配列を取得、その痕跡をニワトリゲノムから探してみるのをやってみましょう。
+
 - [【発展編】UCSC genome browserの使い方～配列取得編～2013](http://togotv.dbcls.jp/20131113.html)
 - [【発展編】UCSC Genome Browserの使い方〜wig形式のファイルをトラックとして追加する〜(統合TV)](http://togotv.dbcls.jp/20120116.html)
