@@ -47,7 +47,7 @@
 坊農 秀雅  
 (情報・システム研究機構 ライフサイエンス統合データベースセンター (DBCLS))   
 
-14:40～16:10 「[微生物におけるNGSデータからゲノムアノテーションまで](https://github.com/AJACS-training/AJACS54/blob/master/fijisawa/)」  
+14:40～16:10 「[微生物におけるNGSデータからゲノムアノテーションまで](https://github.com/AJACS-training/AJACS54/blob/master/fujisawa/)」  
 藤澤 貴智  
 (国立遺伝学研究所 大量遺伝情報研究室)    
 
